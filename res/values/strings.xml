@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, TempContactsHome!</string>
     <string name="app_name">Temporary Contacts</string>
+    <string name="app_description">Allows you to make and save temporary contacts that are automatically deleted later at a set time interval.</string>
+    
+    <string name="hellotc">Hello TempContacts!</string>
+    <string name="helloac">Temporary Contacts</string>
+    <string name="hellotct">Hello TempContactsTabs!</string>
 </resources>

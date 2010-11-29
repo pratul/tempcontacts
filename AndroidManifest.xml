@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="no.allegiance.tempcontacts"
-      android:versionCode="1"
-      android:versionName="1.0">
-    <application android:icon="@drawable/icon" android:label="@string/app_name">
-        <activity android:name=".TempContactsHome"
-                  android:label="@string/app_name">
+          package="no.allegiance.tempcontacts"
+          android:versionCode="1"
+          android:versionName="1.0"
+          android:installLocation="auto">
+
+    <application android:icon="@drawable/icon"
+                 android:label="@string/app_name"
+                 android:description="@string/app_description">
+
+        <activity android:name=".AddNewTempContact"
+                  android:label="@string/helloac"
+                  android:windowSoftInputMode="adjustResize">
+                  
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
 
+        <activity android:name=".TempContactsTabs"
+                  android:label="@string/hellotct"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+
+        <activity android:name=".TempContacts"
+                  android:label="@string/hellotc">
+        </activity>
+
+        <activity android:name=".AllContacts"
+                  android:label="@string/helloac">
+        </activity>
+
     </application>
+    
     <uses-sdk android:minSdkVersion="7" />
 
 </manifest> 

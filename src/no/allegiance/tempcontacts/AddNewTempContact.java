@@ -3,11 +3,11 @@ package no.allegiance.tempcontacts;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class TempContactsHome extends Activity {
-    /** Called when the activity is first created. */
+public class AddNewTempContact extends Activity {
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.addtempcontact);
     }
 }

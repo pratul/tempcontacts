@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/widget61"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    
+    <TextView
+        android:id="@+id/widget55"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:paddingLeft="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        >
+    </TextView>
+    
+    <EditText
+        android:id="@+id/widget57"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:layout_below="@+id/widget56"
+        android:layout_alignParentLeft="true"
+        >
+    </EditText>
+    
+    <TextView
+        android:id="@+id/widget56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Number"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:paddingLeft="2dp"
+        android:layout_below="@+id/widget53"
+        android:layout_alignParentLeft="true"
+        >
+    </TextView>
+    
+    <EditText
+        android:id="@+id/widget53"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:layout_below="@+id/widget55"
+        android:layout_alignParentLeft="true"
+        >
+    </EditText>
+    
+    <LinearLayout
+        android:id="@+id/widget63"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffcccccc"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true">
+
+        <Button
+            android:id="@+id/widget31"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:text="Save"
+            android:layout_weight="1">
+        </Button>
+        <Button
+            android:id="@+id/widget58"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:text="Cancel"
+            android:layout_weight="1">
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>
+
